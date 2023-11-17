@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NaiComponent } from './components/nai/nai.component';
+import { ColorComponent } from './components/color/color.component';
+import { HttpClientModule } from '@angular/common/http';
+import { BrandComponent } from './components/brand/brand.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NaiComponent,
+    ColorComponent,
+    BrandComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
