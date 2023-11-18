@@ -7,13 +7,15 @@ import { NaiComponent } from './components/nai/nai.component';
 import { ColorComponent } from './components/color/color.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrandComponent } from './components/brand/brand.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NaiComponent,
     ColorComponent,
-    BrandComponent
+    BrandComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
